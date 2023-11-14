@@ -1,0 +1,16 @@
+name: AntiDupePro
+version: '${project.version}'
+main: rod.antidupepro.AntiDupePro
+api-version: '1.20'
+softdepend:
+  - ViaVersion
+  - MythicMobs
+load-order:
+  - AntiDupePro
+  - ViaVersion
+  - MythicMobs
+  -
+commands:
+  dupealerts:
+    description: Open the Dupe Alerts GUI
+    usage: /dupealerts
